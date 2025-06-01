@@ -9,26 +9,22 @@ Purpose
         The primary goal of a movie recommendation system is to filter and present content that matches a user’s taste, saving them time and improving user satisfaction.
 
 Types of Recommendation Techniques
-  A.  Content-Based Filtering:
+    A.  Content-Based Filtering:
        1. Recommends movies similar to those the user has liked in the past.
        2. Considers movie features like genre, director, cast, keywords, etc.
-
             Example: If a user likes sci-fi movies, it will suggest other sci-fi titles.
 
     B. Collaborative Filtering:
         Recommends movies based on the preferences of similar users.
 
         Types:
-          User-Based: Finds users with similar tastes and recommends what they liked.
-
-          Item-Based: Finds movies liked by similar users and suggests them to you.
-
+          1.User-Based: Finds users with similar tastes and recommends what they liked.
+          2.Item-Based: Finds movies liked by similar users and suggests them to you.
                 Example: "Users who watched Inception also liked Interstellar."
 
-     C.Hybrid Filtering:
-        Combines both content-based and collaborative filtering for better accuracy.
-
-        Overcomes limitations of individual techniques.
+    C.Hybrid Filtering:
+        1.Combines both content-based and collaborative filtering for better accuracy.
+        2.Overcomes limitations of individual techniques.
 
 
 
